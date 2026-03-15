@@ -2,6 +2,7 @@
 **Andrew Ren — TTIC 31040**
 
 Evaluates how common image degradations affect SIFT-based relative pose estimation, and whether classical preprocessing can recover accuracy.
+To reproduce the result, download specific sequence from TUM RGB-D dataset and run the main jupyter notebook:)
 
 ---
 
