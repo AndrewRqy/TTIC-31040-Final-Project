@@ -1,4 +1,4 @@
-# Robustness of Relative Camera Pose Estimation Under Image Degradation
+# Robustness of Feature-Based Relative Pose Estimation under Image Degradation 
 **Andrew Ren — TTIC 31040**
 
 Evaluates how common image degradations affect SIFT-based relative pose estimation, and whether classical preprocessing can recover accuracy.
@@ -11,6 +11,7 @@ Evaluates how common image degradations affect SIFT-based relative pose estimati
 data/
   tum_sequence/     place downloaded TUM sequence here
 results/            auto-generated figures and result JSON
+src/                source code for the project
 main.ipynb          experiment driver
 ```
 
@@ -52,16 +53,9 @@ Uses the [TUM RGB-D benchmark](https://cvg.cit.tum.de/data/datasets/rgbd-dataset
 Specific sequence used in Experiments: `fr3/long_office_household` 
 Place the extracted folder at `data/DATASET_PATH/`
 
-## Experiments
-
-| # | Question |
-|---|---|
-| 1 | How do degradation type and severity affect match count, inlier ratio, and pose error? |
-| 2 | Which preprocessing method best recovers accuracy under each degradation? |
-| 3 | Is Essential matrix or Homography more robust to image corruption? |
 
 ## Dependencies
 
 ```
-numpy  opencv-python  scipy  matplotlib  scikit-image  tqdm
+numpy  opencv-python  scipy  matplotlib  tqdm
 ```
